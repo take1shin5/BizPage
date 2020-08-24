@@ -226,9 +226,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #18d26e;
 }
 
-.map {
-  text-align:center;
-}
 .nav-menu .drop-down > a:after {
   content: "\ea99";
   font-family: IcoFont;
@@ -428,10 +425,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
-  color: #fff;
+  color: white;
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -1665,4 +1662,14 @@ section {
 
 .carousel-indicators{
   display: none;
+}
+
+
+.col-md-6 > iframe{
+  width: 100%;
+}
+
+.pull-left {
+  letter-spacing: 5px;
+  line-height: 1.5;
 }
